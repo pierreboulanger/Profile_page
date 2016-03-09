@@ -49,6 +49,12 @@
   font-size: 27px;
 }
 
+@media (max-width: 800px) {
+  .pulse {
+    /* Put smthing here if we want different stuff for tablet/phone */
+  }
+}
+
 /* $$$$$$$$$$$$$$$ */
 /* SECOND DIV */
 /* $$$$$$$$$$$$$$$ */

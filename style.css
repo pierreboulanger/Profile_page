@@ -1,13 +1,62 @@
+/* $$$$$$$$$$$$$$$ */
+/* BANNER */
+/* $$$$$$$$$$$$$$$ */
+
+
+
 .banner {
-  background-image: url("uyuni.jpg");
+  background-image: url("images/uyuni.jpg");
   background-size: cover;
-  height: 90vh;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-.banner h1 {
-  margin-top: 0;
+.banner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.5);
+  z-index: 1;
+}
+
+/* $$$$$$$$$$$$$$$ */
+/* FIRST DIV */
+/* $$$$$$$$$$$$$$$ */
+
+.first {
+  background: transparent;
+  height: 100vh;
 }
 
 .pulse {
-  padding: 100px 100px 100px 530px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  padding-top: 450px;
 }
+
+.pulse h1 {
+  font-size: 60px;
+}
+
+.pulse h3 {
+  font-size: 27px;
+}
+
+/* $$$$$$$$$$$$$$$ */
+/* SECOND DIV */
+/* $$$$$$$$$$$$$$$ */
+
+.second {
+
+}
+
+/* $$$$$$$$$$$$$$$ */
+/* THIRD DIV */
+/* $$$$$$$$$$$$$$$ */

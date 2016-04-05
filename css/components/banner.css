@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.banner-content {
+  z-index: 2;
+  margin-top: 450px;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 60px;
+}
+
+.banner-content h3 {
+  font-size: 27px;
+}
+
+.banner-arrow a {
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+/* Put something here if we want different stuff for tablet/phone
+@media (max-width: 800px) {
+  .banner-content {
+
+  }
+}
+*/
